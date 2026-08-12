@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lumen — A Community for Christians</title>
+<meta name="description" content="A private community for Christians to pray together, study Scripture, find a prayer partner, and encourage one another." />
+<meta name="theme-color" content="#4a3a8a" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Lumen — A Community for Christians" />
+<meta property="og:description" content="A private community for Christians to pray together, study Scripture, find a prayer partner, and encourage one another." />
+<meta property="og:image" content="assets/img/og-image.svg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Lumen — A Community for Christians" />
+<meta name="twitter:description" content="A private community for Christians to pray together, study Scripture, find a prayer partner, and encourage one another." />
+<meta name="twitter:image" content="assets/img/og-image.svg" />
+<link rel="icon" type="image/svg+xml" href="assets/img/logo.svg" />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<div class="container">
+  <div class="landing-nav">
+    <div class="brand">
+      <img class="brand-mark" src="assets/img/logo.svg" alt="Lumen logo" />
+      Lumen
+    </div>
+    <div>
+      <button class="btn btn-outline btn-sm" id="openGateBtn">Sign in / Join</button>
+    </div>
+  </div>
+
+  <div class="hero-split">
+    <div class="hero-content">
+      <h1>A quiet place to grow in faith, together.</h1>
+      <p class="lead">Lumen is a private community built for Christians — pray for one another on the Prayer Wall, join a Bible study group, get matched with a prayer partner, and share what God is doing in your life.</p>
+      <div class="hero-actions">
+        <button class="btn btn-primary" id="openGateBtnHero">Join Lumen</button>
+        <a class="btn btn-outline" href="#features">See what's inside</a>
+      </div>
+      <p class="hero-verse" id="heroVerse"></p>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <div class="hero-visual-blob"></div>
+      <div class="hero-mock-card hero-mock-verse">
+        <span class="hero-mock-tag">Verse of the day</span>
+        <p>"Cast all your anxieties on him, because he cares for you."</p>
+        <span class="hero-mock-ref">1 Peter 5:7</span>
+      </div>
+      <div class="hero-mock-card hero-mock-prayer">
+        <div class="hero-mock-avatar">MK</div>
+        <div>
+          <strong>Miriam K.</strong>
+          <p>Please pray for my mother's surgery on Thursday...</p>
+          <span class="hero-mock-pill">🙏 14 praying</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pillars-row">
+    <div class="pillar">
+      <div class="pillar-icon icon-primary">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="24" cy="24" r="4" fill="currentColor"/>
+          <circle cx="24" cy="24" r="12" stroke="currentColor" stroke-width="1.6" opacity="0.55"/>
+          <circle cx="24" cy="24" r="19" stroke="currentColor" stroke-width="1.6" opacity="0.3"/>
+        </svg>
+      </div>
+      <h4>Prayer Wall</h4>
+    </div>
+    <div class="pillar">
+      <div class="pillar-icon icon-accent">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M24 14c-3.5-3-8-4-13-3v22c5-1 9.5 0 13 3 3.5-3 8-4 13-3V11c-5-1-9.5 0-13 3z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+          <path d="M24 14v22" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <h4>Bible Study</h4>
+    </div>
+    <div class="pillar">
+      <div class="pillar-icon icon-good">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="18" cy="24" r="10" stroke="currentColor" stroke-width="1.8"/>
+          <circle cx="30" cy="24" r="10" stroke="currentColor" stroke-width="1.8"/>
+        </svg>
+      </div>
+      <h4>Prayer Partner</h4>
+    </div>
+    <div class="pillar">
+      <div class="pillar-icon icon-accent">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M24 8c1 7 3 9 10 10-7 1-9 3-10 10-1-7-3-9-10-10 7-1 9-3 10-10z" fill="currentColor"/>
+          <path d="M37 29c0.5 3 1.5 4 4.5 4.5-3 0.5-4 1.5-4.5 4.5-0.5-3-1.5-4-4.5-4.5 3-0.5 4-1.5 4.5-4.5z" fill="currentColor" opacity="0.6"/>
+        </svg>
+      </div>
+      <h4>Testimony Feed</h4>
+    </div>
+  </div>
+</div>
+
+<div class="social-proof">
+  <div class="container">
+    <div class="proof-stats">
+      <div class="proof-stat">
+        <strong>1,200+</strong>
+        <span>believers praying together</span>
+      </div>
+      <div class="proof-stat">
+        <strong>85</strong>
+        <span>active Bible study groups</span>
+      </div>
+      <div class="proof-stat">
+        <strong>9,400+</strong>
+        <span>prayers logged this month</span>
+      </div>
+    </div>
+    <blockquote class="proof-quote">
+      "Lumen didn't just give me an app — it gave me people who actually check in on me. That's rare."
+      <cite>— Ruth N., member since 2025</cite>
+    </blockquote>
+  </div>
+</div>
+
+<div class="section" id="features" style="background:var(--bg-soft); border-top:1px solid var(--border); border-bottom:1px solid var(--border);">
+  <div class="container">
+    <div class="section-head">
+      <h2>Built for real Christian community</h2>
+      <p>Everything here is meant to move relationships offline — into real prayer, real study, and real friendship.</p>
+    </div>
+
+    <div class="story-section">
+      <div class="story-row">
+        <div class="story-text">
+          <span class="tag">Prayer Wall</span>
+          <h3>Post it. Someone will pray.</h3>
+          <p>Share a request publicly or anonymously, and watch the count climb as real people commit to pray for you — not likes, just prayer.</p>
+        </div>
+        <div class="story-visual icon-primary">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="24" cy="24" r="4" fill="currentColor"/>
+            <circle cx="24" cy="24" r="12" stroke="currentColor" stroke-width="1.4" opacity="0.55"/>
+            <circle cx="24" cy="24" r="19" stroke="currentColor" stroke-width="1.4" opacity="0.3"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="story-row flip">
+        <div class="story-text">
+          <span class="tag">Bible Study Groups</span>
+          <h3>Study the Word, then see each other's faces.</h3>
+          <p>Join a small group working through a book of the Bible together, discuss the weekly passage in a shared thread, and meet face-to-face on a live video call.</p>
+        </div>
+        <div class="story-visual icon-accent">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 14c-3.5-3-8-4-13-3v22c5-1 9.5 0 13 3 3.5-3 8-4 13-3V11c-5-1-9.5 0-13 3z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+            <path d="M24 14v22" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="story-row">
+        <div class="story-text">
+          <span class="tag">Prayer Partner</span>
+          <h3>One person, praying for you specifically.</h3>
+          <p>Tell us your prayer focus and availability — we'll match you with someone to check in with, video call, and hold you accountable, week after week.</p>
+        </div>
+        <div class="story-visual icon-good">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="18" cy="24" r="10" stroke="currentColor" stroke-width="1.6"/>
+            <circle cx="30" cy="24" r="10" stroke="currentColor" stroke-width="1.6"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="story-row flip">
+        <div class="story-text">
+          <span class="tag">Testimony Feed</span>
+          <h3>What God is doing, out loud.</h3>
+          <p>Share what's changed, what's healed, what finally clicked — and read what He's doing in someone else's life while you're at it.</p>
+        </div>
+        <div class="story-visual icon-accent">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 8c1 7 3 9 10 10-7 1-9 3-10 10-1-7-3-9-10-10 7-1 9-3 10-10z" fill="currentColor"/>
+            <path d="M37 29c0.5 3 1.5 4 4.5 4.5-3 0.5-4 1.5-4.5 4.5-0.5-3-1.5-4-4.5-4.5 3-0.5 4-1.5 4.5-4.5z" fill="currentColor" opacity="0.6"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <div class="brand" style="font-size:1.1rem;">
+        <img class="brand-mark" style="width:28px;height:28px;" src="assets/img/logo.svg" alt="Lumen logo" />
+        Lumen
+      </div>
+      <p>A private space for Christians to pray, study Scripture, and grow together.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Explore</h5>
+      <a href="#features">Features</a>
+      <a href="#" id="footerJoinLink">Join Lumen</a>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h5>Legal</h5>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">&copy; 2026 Lumen. All rights reserved.</div>
+  </div>
+</footer>
+
+<!-- Gate modal -->
+<div class="modal-backdrop" id="gateBackdrop" style="display:none;">
+  <div class="modal">
+    <h2>Welcome to Lumen</h2>
+    <p class="modal-sub">This community is reserved for Christians. Please share your name and affirm the statement below to continue.</p>
+
+    <div class="field">
+      <label for="nameInput">Your name</label>
+      <input type="text" id="nameInput" placeholder="e.g. Josh P." maxlength="40" />
+    </div>
+
+    <label style="margin-bottom:8px;">Statement of Faith</label>
+    <div class="statement-box">
+      <p>I believe in one God, eternally existing in three persons — Father, Son, and Holy Spirit.</p>
+      <p>I believe the Bible is God's inspired word and the trustworthy guide for faith and life.</p>
+      <p>I believe Jesus Christ is fully God and fully man, that He died for our sins and rose bodily from the dead, and that salvation is by grace through faith in Him alone.</p>
+      <p>By joining, you're affirming that this reflects your own Christian faith, and agreeing to treat this community with honesty, kindness, and respect.</p>
+    </div>
+
+    <div class="checkbox-row" style="margin-bottom:14px;">
+      <input type="checkbox" id="affirmCheck" />
+      <label for="affirmCheck" style="font-weight:400; color:var(--text); margin:0;">I affirm this statement of faith and agree to the community guidelines.</label>
+    </div>
+    <p class="consent-text">By joining, you agree to Lumen's <a href="terms.html" target="_blank" rel="noopener">Terms of Service</a> and <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.</p>
+    <p class="error-text" id="gateError">Please enter your name and affirm the statement above to continue.</p>
+
+    <div style="display:flex; gap:10px;">
+      <button class="btn btn-outline" id="cancelGateBtn">Cancel</button>
+      <button class="btn btn-primary btn-block" id="enterBtn">Enter Lumen</button>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/gate.js"></script>
+</body>
+</html>

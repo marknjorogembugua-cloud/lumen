@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lumen</title>
+<link rel="icon" type="image/svg+xml" href="assets/img/logo.svg" />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<div class="app-shell">
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="brand" style="font-size:1.05rem;">
+        <img class="brand-mark" style="width:28px;height:28px;" src="assets/img/logo.svg" alt="Lumen logo" />
+        Lumen
+      </div>
+    </div>
+    <nav class="sidebar-nav" id="sidebarNav">
+      <button class="nav-link" data-route="wall"><span class="nav-icon">🙏</span> Prayer Wall</button>
+      <button class="nav-link" data-route="groups"><span class="nav-icon">📖</span> Bible Study Groups</button>
+      <button class="nav-link" data-route="partner"><span class="nav-icon">🤝</span> Prayer Partner</button>
+      <button class="nav-link" data-route="feed"><span class="nav-icon">✨</span> Testimony Feed</button>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="profile-chip">
+        <div class="avatar" id="profileAvatar">?</div>
+        <div>
+          <div class="name" id="profileName">—</div>
+          <div class="sub">Member</div>
+        </div>
+      </div>
+      <button class="btn btn-ghost btn-sm" id="signOutBtn" style="padding-left:0;">Sign out</button>
+    </div>
+  </aside>
+
+  <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+
+  <div class="main">
+    <div class="topbar">
+      <div style="display:flex; align-items:center; gap:12px; min-width:0;">
+        <button class="menu-toggle" id="menuToggleBtn" aria-label="Toggle menu">☰</button>
+        <h1 id="topbarTitle">Prayer Wall</h1>
+      </div>
+      <div class="verse-widget" id="verseWidget"></div>
+    </div>
+    <div id="viewRoot"></div>
+  </div>
+</div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

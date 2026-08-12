@@ -1,0 +1,23 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Lumen — A Community for Christians">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a3a8a"/>
+      <stop offset="100%" stop-color="#241c47"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  <circle cx="1040" cy="120" r="170" fill="#b6862c" opacity="0.14"/>
+  <circle cx="90" cy="560" r="140" fill="#b6862c" opacity="0.12"/>
+
+  <g transform="translate(110,225)">
+    <circle cx="60" cy="60" r="56" fill="none" stroke="#b6862c" stroke-width="3"/>
+    <circle cx="60" cy="30" r="8.5" fill="none" stroke="#ffffff" stroke-width="6.5" stroke-linecap="round"/>
+    <line x1="60" y1="39" x2="60" y2="98" stroke="#ffffff" stroke-width="6.5" stroke-linecap="round"/>
+    <line x1="40" y1="47" x2="80" y2="47" stroke="#ffffff" stroke-width="6.5" stroke-linecap="round"/>
+    <path d="M37,84 C37,93 47,99 60,99 C73,99 83,93 83,84" fill="none" stroke="#ffffff" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="310" y="300" font-family="Georgia, 'Iowan Old Style', serif" font-size="92" font-weight="700" fill="#ffffff">Lumen</text>
+  <text x="312" y="352" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#e7ddcc">A quiet place to grow in faith, together.</text>
+  <text x="312" y="392" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#c9bfe0">Prayer Wall · Bible Study · Prayer Partner · Testimony Feed</text>
+</svg>
